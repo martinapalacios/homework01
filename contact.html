@@ -10,8 +10,9 @@
 
 </head>
 
+<body>
 <nav>
-    <!-- Navigation Buttons-->
+    <!-- Navigation Button-->
     <div class="topnav">
         <a id="name">Martín A Palacios</a>
         <a id="contact" href="contact.html">Contact</a>
@@ -22,34 +23,45 @@
 
 <div class="container">
 
-        <section id="Contact">
+    <div class = "infoform">
 
-            <h2>Contact</h2>
-            
-            <form>
-                Name<br>
-                <input type="text" name="fullname">
-                <br>
-                Email<br>
-                <input type="text" email="email">
-                <br>
-                Message<br>
-                <input type="text" message="message">
-                <br>
-            </form>
-            
-            <button class="button">Submit</button>
+        <!--<section id="Contact">-->
 
-        </section>
+            <div>
+                <h2>Contact</h2>
+            </div>
+
+            <div class="form">
+                <label for="name">Name</label>
+                <input id="Name" type="text" placeholder="Your Name">
+            </div>
+
+            <div class="form">
+                    <label for="name">Email</label>
+                    <input id="Name" type="text" placeholder="Your Email">
+            </div>
+        
+            <div class="form">
+                    <label for="name">Message</label>
+                    <input class= "longform" id="Name" type="text">
+            </div>
+            
+            <div class="form">
+                <button class="button" type="sbmit">Submit</button>
+            </div>
+
+        <!--</section>-->
+
+    </div>
 
 </div>
-
-<body background ="assets/images/old_map.png" alt="background-image"></body>
 
     <div>
         <footer>
             <div id="copyrightText">Copyright MAP ©</div>
         </footer>
     </div>
+
+</body>
 
 </html>
